@@ -1,0 +1,14 @@
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependency directory
+node_modules
+
+#dist folder
+dist
+
+# IDEA/Webstorm project files
+.idea
+*.iml
+
+.watchmanconfig
