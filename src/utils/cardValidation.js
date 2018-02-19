@@ -6,8 +6,9 @@ export function getCardType(settings) {
   let number = settings.cardNumber;
   number = ('' + number).replace(/\D/g, '');
 
-  // TODO: I would implement these checks as strategies, compose them into this web component and call a validate() method on each
-  // this would make it easily extensible and make it easy to create mocks and inject rules in acceptance tests etc
+  // TODO: with more time I would implement these checks as strategies,
+  // TODO: compose them into this web component and call a validate() method on each
+  // TODO: this would make it easily extensible and make it straightforward to create mocks and inject rules in acceptance tests etc
   if (/^5[1-5]/.test(number) && number.length === 16) {
     return 'MasterCard';
   } else if (/^(6011|622|64|65)/.test(number) && number.length === 16) {
