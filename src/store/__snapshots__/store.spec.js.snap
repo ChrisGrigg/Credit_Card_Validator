@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Store should handle a flurry of actions 1`] = `
+Object {
+  "cardNumber": "9111111111111111",
+  "cardNumberValid": Object {
+    "cardNumber": "9111111111111111",
+    "cardType": "Unknown",
+    "valid": false,
+  },
+  "displayResults": false,
+  "requiredDataProvidedForValidation": true,
+}
+`;

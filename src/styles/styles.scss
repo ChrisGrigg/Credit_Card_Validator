@@ -1,0 +1,31 @@
+/* Variables */
+$ctm-blue: #5bb7db;
+$ctm-green: #60b044;
+$ctm-red: #ff0000;
+
+/* Styles */
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+td {
+	padding: 12px;
+}
+
+h2 {
+	color: $ctm-blue;
+}
+
+.cc-valid { color: $ctm-green; }
+.cc-invalid { color: $ctm-red; }
+input.medium { width: 146px; }
+td.card-valid-label { width: 175px; }
