@@ -191,7 +191,6 @@ describe('Credit Card Validator', () => {
         cardNumber: '378282246310005',
       };
       const cardValidation = validateCardNumber(settings);
-      // console.log(`cardValidation ${JSON.stringify(cardValidation)}`);
       expect(cardValidation).toEqual({
         cardNumber: '378282246310005',
         cardType: 'AMEX',
